@@ -20,7 +20,7 @@
 
 * Addtional scripts
 
-    * Create synthetic ones from SIM data
+    * Create synthetic ones from SIM data. [[script](script_create_synthetic_meetings_SIM.py)]
         * The ```SIM_syn100``` data created by this script is included in the ```.\data``` folder.
         * Run script (example):
         
@@ -28,7 +28,7 @@
             python script_create_synthetic_meetings_SIM.py --new_name syn100 --n_syn 100 --rdseed 2
             ```
 
-    * Augment dataset by adding or removing topics. 
+    * Augment dataset by adding or removing topics. [[script](script_augment_data.py)]
         * The sample data created by this script is included in the ```.\data\example_aug``` folder.
         * Run script (example):
 
