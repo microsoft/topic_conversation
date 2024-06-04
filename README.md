@@ -1,12 +1,12 @@
 # Topic-Conversation Relevance (TCR) Dataset and Benchmarks
 ---
-* TBD: Paper introduction
 
-## Dataset Introduction
-* Access: Data can be downloaded into the ```.\data``` folder [from here](https://mtmdata.blob.core.windows.net/data-share/topic_conversation.zip).
-* TBD: Goal
-* TBD: Different types, sources
-* TBD: Number of meetings, number of topics, number of words
+To help improve meeting effectiveness by understanding if the conversation is on topic, we create a comprehensive Topic-Conversation Relevance (TCR) Dataset that covers a variety of domains and meeting styles. Please refer to the paper _Topic-Conversation Relevance (TCR) Dataset and Benchmarks_ for details.
+
+## Dataset Access
+* Data can be downloaded into the ```.\data``` folder [from here](https://mtmdata.blob.core.windows.net/data-share/topic_conversation.zip).
+* The TCR dataset includes 1,500 unique meetings, 22,000 words in transcripts, and over 15,000 meeting topics, sourced from both newly collected Speech Interruption Meeting (SIM) data and existing public datasets. 
+* Please refer to the paper for input data sources and citations.
 
 ## Data Schema
 * All data files are in JSON format. They can be downloaded from the link above.
