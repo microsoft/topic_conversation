@@ -20,7 +20,7 @@ To help improve meeting effectiveness by understanding if the conversation is on
 
 * Addtional scripts
 
-    * Create synthetic ones from SIM data. [[script](script_create_synthetic_meetings_SIM.py)]
+    * Create synthetic ones from SIM data: [[script_create_synthetic_meetings_SIM.py](script_create_synthetic_meetings_SIM.py)]
         * The ```SIM_syn100``` data created by this script is included in the ```.\data``` folder.
         * Run script (example):
         
@@ -28,13 +28,19 @@ To help improve meeting effectiveness by understanding if the conversation is on
             python script_create_synthetic_meetings_SIM.py --new_name syn100 --n_syn 100 --rdseed 2
             ```
 
-    * Augment dataset by adding or removing topics. [[script](script_augment_data.py)]
+    * Augment dataset by adding or removing topics: [[script_augment_data.py](script_augment_data.py)]
         * The sample data created by this script is included in the ```.\data\example_aug``` folder.
         * Run script (example):
 
             ```
             python script_augment_data.py --input_data ICSI --new_name aug --variation_addTopics 0.3 --variation_removeTopics 0.3
             ```
+    * Create prompts from data and analysis the responses from the model. [[example_data_to_prompts_to_results.ipynb](example_data_to_prompts_to_results.ipynb)]
+        * This scrip helps reproduce the results in the TCR paper by performing the following steps:
+            * Create Prompts
+            * (Not included) Run the Prompts
+            * Parse the responses
+            * Analyze the results as a binary classification problem and focus on the "not discussed" class.
 
 ## License
 Refer to the [LICENSE](LICENSE) file for details.
