@@ -53,12 +53,12 @@
   "distribution": [
     {
       "@type": "cr:FileObject",
-      "@id": "link-file",
-      "name": "link-file",
+      "@id": "data.zip",
+      "name": "data.zip",
       "description": "The TCR data is hosted via a file link.",
       "contentUrl": "https://mtmdata.blob.core.windows.net/data-share/topic_conversation/data.zip",
-      "encodingFormat": "https",
-      "sha256": "1dc23bf32db811b4e2e2b92189e4bb1f50e4492bed00fe38a9ced2c0801c3ec3"
+      "encodingFormat": "application/zip",
+      "sha256": "6b3d4a450340a5ef4de1d4649f0be1e2bf7bdf732349a811fec3914049975ab1"
     },
     {
       "@type": "cr:FileSet",
@@ -66,9 +66,9 @@
       "name": "json-files",
       "description": "JSON files.",
       "containedIn": {
-        "@id": "link-file"
+        "@id": "data.zip"
       },
-      "encodingFormat": "json",
+      "encodingFormat": "application/json",
       "includes": "data/*.json"
     }
   ],
