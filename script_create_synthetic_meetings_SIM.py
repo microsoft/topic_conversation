@@ -1,3 +1,5 @@
+# Copyright (c) Microsoft Corporation. 
+# Licensed under the MIT license. 
 # ========================================================================================================
 # Description
 #   This script is used to create synthetic meetings from the Speech Interruption Meeting (SIM) dataset. 
