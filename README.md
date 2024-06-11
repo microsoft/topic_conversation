@@ -44,6 +44,7 @@ To help improve meeting effectiveness by understanding if the conversation is on
 
 ## License
 For data, please refer to the [LICENSE_Data](LICENSE_Data) file for details.
+
 For code, please refer to the [MIT LICENSE](LICENSE).
 
 ## Contributing
