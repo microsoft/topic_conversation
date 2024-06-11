@@ -1,3 +1,5 @@
+# Copyright (c) Microsoft Corporation. 
+# Licensed under the MIT license. 
 # ========================================================================================================
 # Description
 #   This script is used to augment data by creating variations of the input data. 
