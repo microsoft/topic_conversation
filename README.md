@@ -47,6 +47,9 @@ For data, please refer to the [LICENSE_Data](LICENSE_Data) file for details.
 
 For code, please refer to the [MIT LICENSE](LICENSE).
 
+## Disclaimer
+The dataset contains several meeting transcripts and agenda topics that were collected by Microsoft and other attributing sources. The conversations contained within the dataset may contain views and opinions expressed by the speaker that do not reflect Microsoft values or policies. 
+
 ## Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to
