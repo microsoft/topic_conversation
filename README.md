@@ -5,7 +5,7 @@ To help improve meeting effectiveness by understanding if the conversation is on
 
 ## Dataset Access
 * Data can be found in the [```.\data```](data) folder.
-* The TCR dataset includes 1,500 unique meetings, 22,000 words in transcripts, and over 15,000 meeting topics, sourced from both newly collected Speech Interruption Meeting (SIM) data and existing public datasets. 
+* The TCR dataset includes 1,500 unique meetings, 22,000,000 words in transcripts, and over 15,000 meeting topics, sourced from both newly collected Speech Interruption Meeting (SIM) data and existing public datasets. 
 * Please refer to the paper for input data sources and citations.
 
 ## Data Schema
