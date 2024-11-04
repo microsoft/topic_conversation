@@ -1,7 +1,7 @@
 # Topic-Conversation Relevance (TCR) Dataset and Benchmarks
 ---
 
-To help improve meeting effectiveness by understanding if the conversation is on topic, we create a comprehensive Topic-Conversation Relevance (TCR) Dataset that covers a variety of domains and meeting styles. Please refer to the paper [Topic-Conversation Relevance (TCR) Dataset and Benchmarks](https://neurips.cc/virtual/2024/poster/97498) (NeurIPS 2024) for details.
+To help improve meeting effectiveness by understanding if the conversation is on topic, we create a comprehensive Topic-Conversation Relevance (TCR) Dataset that covers a variety of domains and meeting styles. Please refer to the paper [Topic-Conversation Relevance (TCR) Dataset and Benchmarks](https://arxiv.org/pdf/2411.00038) (NeurIPS 2024) for details.
 
 ## Dataset Access
 * Data can be found in the [```.\data```](data) folder.
